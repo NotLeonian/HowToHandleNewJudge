@@ -26,4 +26,4 @@ args = ["(シェルスクリプト 絶対パスのほうがいいかも).sh", "{
 language_id = "5054"
 ```
 
-対応させたら　https://atcoder.jp/contests/language-test-202301　などで使えるか確認しましょう。
+対応させたら https://atcoder.jp/contests/language-test-202301 などで使えるか確認しましょう。
