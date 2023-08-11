@@ -11,6 +11,8 @@ cargo.tomlの[submit.transpile]を弄るのですが、その際2つの点が問
 
 例えば、bin_nameをもとにCargo.tomlからbin_aliasを得て、提出ファイルをcatする以下のシェルスクリプトを用いればよいです。
 
+シェルスクリプトの権限は777にします。（755でもだめです。）
+
 ```bash
 #!/bin/bash
 
