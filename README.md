@@ -25,3 +25,5 @@ kind = "command"
 args = ["(シェルスクリプト 絶対パスのほうがいいかも).sh", "{{ bin_name }}"]
 language_id = "5054"
 ```
+
+対応させたら　https://atcoder.jp/contests/language-test-202301　などで使えるか確認しましょう。
