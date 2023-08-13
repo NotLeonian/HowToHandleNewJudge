@@ -1,6 +1,8 @@
 # 2023年8月の新ジャッジにcargo-competeを対応させる方法
-- cargo-competeは多分更新されると思います。その後は特にこの方法は必要ないと思います。
+- cargo-competeは多分更新されると思います。その後は特にこの方法は必要ないと思います。 
 - cargo-equip等を使っていれば、おそらくcargo.tomlの[submit.transpile]のlanguage_idを「language_id = "5054"」に変更するだけでよいはずです。
+
+[追記] 更新されたようです。https://github.com/qryxip/cargo-compete/releases/tag/v0.10.6
 
 cargo.tomlの[submit.transpile]を弄るのですが、その際2つの点が問題となります。
 
